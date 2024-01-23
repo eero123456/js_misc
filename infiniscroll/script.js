@@ -50,9 +50,6 @@ function renderCards(data) {
 }
 
 function scrollHandler() {
-	//scrollHeight - Math.round(el.scrollTop) === el.clientHeight
-	//if (( window.innerHeight + window.scrollTop) >= document.body.offsetHeight) {	
-	//console.log(window.innerHeight+document.documentElement.scrollTop,document.documentElement.offsetHeight);	
 	
 	if (( window.innerHeight + document.documentElement.scrollTop ) < document.documentElement.offsetHeight) {
 		return;
