@@ -1,0 +1,17 @@
+main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em 4em;
+}
+
+.card {
+	display: inline-block;
+	width: 15em;
+	background: aliceblue;
+	padding: 1em;
+}
+
+.card p {
+	font-size: large;
+	font-weight: 600;
+}
