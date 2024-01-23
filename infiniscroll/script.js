@@ -21,7 +21,9 @@ function getCards(id, amount = 10) {
 		})
 		.catch((e) => {
 			console.error(e);
+			isLoading=false;	
 		});
+
 }
 
 function renderCards(data) {
